@@ -1,0 +1,137 @@
+:root{
+  --color-white: #fff;
+  --color-black: #000;
+  --bc-white: #fff;
+  --bc-black: #333;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-RegularItalic.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  font-family: "Gilroy";
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+.shopping-inner{
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.sm-images{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.uff{
+  margin: 0 15px;
+}
+.shopping-inner__text{
+  padding: 10px;
+  border: 1px solid #888;
+}
+.shopping-inner__text-infors{
+  padding: 10px 30px;
+}
+.text__infors-h3{
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+.text__infors-list{
+  margin: 30px 0;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #000;
+}
+.llist__cates-link{
+  color: var(--color-black);
+}
+.text__infors-title{
+  line-height: 150%;
+}
+.infors__btns-buy{
+  margin-right: 30px;
+  padding: 10px 20px;
+  color: var(--color-white);
+  background: var(--bc-black);
+}
+.infors__btns-basket{
+  padding: 9px 20px;
+  color: var(--color-black);
+  background: var(--bc-white);
+  border: 1px solid #000;
+}
+
+@media only screen and (max-width:1190px){
+  .shopping-inner__text{
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width:545px){
+  .big_red{
+    width: 500px;
+    height: 400px;
+  }
+  .sm-images img{
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width:505px){
+  .shopiing-inner__imgs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .big_red{
+    width: 400px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width:405px){
+  .big_red{
+    width: 250px;
+    height: 200px;
+  }
+}
+
+
+
+
+
+.price-inner__text{
+  text-align: center;
+}
+.price-inner__text-title{
+  color: var(--color-black);
+  font-size: 18px;
+}
+.price-inner__text-h3{
+  margin-top: 15px;
+  margin-bottom: 55px;
+  color: var(--color-black);
+  font-size: 25px;
+  font-weight: 700;
+}
+.price-inner__brand{
+  margin-top: 0px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
